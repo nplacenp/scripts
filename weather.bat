@@ -1,0 +1,1 @@
+@python.exe C:\Users\nplac\Documents\scripts\weather.py %*
