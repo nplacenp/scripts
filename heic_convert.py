@@ -33,9 +33,9 @@ for i in sys.argv[1:]:
                                 dest_path = os.path.join(d_path, new_img)
                                 image.save(dest_path, quality=100)
                                 print(f"source : {filename}")
-                                print(f"resized file : {new_img}\n"+"_"*20+"\n")                
+                                print(f"converted file : {new_img}\n"+"_"*20+"\n")                
                                 iteration_count +=1
                         except:
                             pass
-            print(f"{iteration_count} files were resized successfully!!!")
+            print(f"{iteration_count} files were converted successfully!!!")
             break
