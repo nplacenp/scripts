@@ -10,7 +10,9 @@ iteration_count = 0
 
 quality_dict = {
                 "hd": {"resolution" : (1920, 1080), "suffix": "_2k." },
-                "uhd": {"resolution": (3840, 2160), "suffix": "_4k."}
+                "hd_4_3": {"resolution" : (2500, 1875), "suffix": "_2k_4_3." },
+                "uhd": {"resolution": (3840, 2160), "suffix": "_4k."},
+                "uhd_4_3": {"resolution": (5000, 3750), "suffix": "_4k_4_3."}
                 }
 
 sys.argv
