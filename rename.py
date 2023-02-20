@@ -41,12 +41,12 @@ while True:
             cust_date = input("Would you like the prefix the files with a custom date? (y/n)")
             if cust_date.lower() == "y":
                 while True:
-                        cd = input("What is the custom date you would like the prefix with?  (yymmdd)")
-                        if cd.isnumeric():
-                            break
-                        else:
-                            print("Must be a properly formatted date. Please Try Again!")
-                            continue
+                    cd = input("What is the custom date you would like the prefix with?  (yymmdd)")
+                    if cd.isnumeric():
+                        break
+                    else:
+                        print("Must be a properly formatted date. Please Try Again!")
+                        continue
 
         # path = os.getcwd()
         for root, dirs, files in os.walk(path):
